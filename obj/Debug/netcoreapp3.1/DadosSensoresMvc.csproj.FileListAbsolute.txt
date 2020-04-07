@@ -141,3 +141,5 @@ C:\Users\Usuario\source\repos\DadosSensoresMvc\bin\Debug\netcoreapp3.1\Oracle.Ma
 C:\Users\Usuario\source\repos\DadosSensoresMvc\bin\Debug\netcoreapp3.1\Oracle.DataAccess.dll
 C:\Users\Usuario\source\repos\DadosSensoresMvc\obj\Debug\netcoreapp3.1\DadosSensoresMvc.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\DadosSensoresMvc\obj\Debug\netcoreapp3.1\DadosSensoresMvc.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\source\repos\DadosSensoresMvc\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuario\source\repos\DadosSensoresMvc\bin\Debug\netcoreapp3.1\Oracle.EntityFrameworkCore.dll

@@ -12,7 +12,7 @@ using DadosSensoresMvc.Models;
 
 namespace DadosSensoresMvc.Repository
 {
-	public class DataBaseContext: System.Data.Entity.DbContext
+	public class DataBaseContext: Microsoft.EntityFrameworkCore.DbContext
 	{
 		// public Context() : base("name=OracleConnectionString")
 		// {
@@ -23,11 +23,15 @@ namespace DadosSensoresMvc.Repository
 			if (!optionsBuilder.IsConfigured)
 			{
 				var config = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
-				optionsBuilder.UseOracle(config.GetConnectionString("RazorPagesMovieContext"));
+				optionsBuilder.UseOracle(config.GetConnectionString("OracleConnection"));
 			}
-
 		}
 
+		/*  Quando utilizando o Entity com a definição 'System.Data.Entity.DbContext',
+		 *  o mesmo não permite configurar o método 'OnConfiguring', quando utilizado como está aqui,
+		 *  apontando para 'Microsoft.EntityFrameworkCore.DbContext', o mesmo não permite configurar
+		 *  o método abaixo, devido a isso preferi a configuração ao invés da string acima
+		   
 		protected override void OnModelCreating(DbModelBuilder modelBuilder)
 		{
 
@@ -35,6 +39,7 @@ namespace DadosSensoresMvc.Repository
 
 			modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 		}
+		*/
 
 		public System.Data.Entity.DbSet<DadosSensores> DadosSensores { get; set; }
 

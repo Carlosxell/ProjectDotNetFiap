@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using DadosSensoresMvc.Repository;
 
 namespace DadosSensoresMvc.Controllers
 {
@@ -18,6 +19,9 @@ namespace DadosSensoresMvc.Controllers
     {
       if (ModelState.IsValid)
       {
+        DadosSensoresRepository dadosSen = new DadosSensoresRepository();
+        dadosSen.Inserir(dadosSensores);
+
         return RedirectToAction("Index", "Home");
       }
       else

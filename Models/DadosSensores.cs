@@ -20,14 +20,14 @@ namespace DadosSensoresMvc.Models
 		public DateTime Data { get; set; }
 
 		[Required(ErrorMessage = "Temperatura obrigatória")]
-		[MinLength(2, ErrorMessage = "Quantidade minima de 2 caracteres")]
-		[MaxLength(4, ErrorMessage = "Quantidade máximo de 4 caracteres")]
+		// [MinLength(2, ErrorMessage = "Quantidade minima de 2 caracteres")]
+		// [MaxLength(4, ErrorMessage = "Quantidade máximo de 4 caracteres")]
 		[Column("TEMPERATURA")]
 		public float Temperatura { get; set; }
 
 		[Required(ErrorMessage = "Umidade obrigatória")]
-		[MaxLength(4, ErrorMessage = "Quantidade máximo de 4 caracteres")]
-		[MinLength(2, ErrorMessage = "Quantidade minima de 2 caracteres")]
+		// [MaxLength(4, ErrorMessage = "Quantidade máximo de 4 caracteres")]
+		// [MinLength(2, ErrorMessage = "Quantidade minima de 2 caracteres")]
 		[Column("UMIDADE")]
 		public float Umidade { get; set; }
 	}
