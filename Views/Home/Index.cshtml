@@ -1,0 +1,62 @@
+﻿@model IEnumerable<DadosSensoresMvc.Models.DadosSensores>
+
+@{
+	ViewData["Title"] = "Página Inicial";
+}
+
+
+<div class="boxContainer">
+	<div class="py-4">
+		<a class="btn btn-sm btn-outline-dark" asp-area="" asp-controller="Cadastrar" asp-action="Index">
+			Cadastrar
+		</a>
+	</div>
+
+
+	@if (Model.Count() < 1)
+	{
+		<p class="alert alert-danger w-100 text-center">Nenhum Dado Cadastrado</p>
+	}
+	else
+	{
+		<div class="table-responsive">
+			<table class="table table-bordered table-hover table-sm">
+				<thead class="thead-dark">
+					<tr>
+						<th scope="col">
+							<span class="d-inline-block text-center">#</span>
+						</th>
+						<th scope="col">Data/Hora</th>
+						<th scope="col">Temperatura</th>
+						<th scope="col">Umidade</th>
+						<th scope="col">Ações</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					@{ int count = 1; }
+					@foreach (var item in Model)
+					{
+						<tr>
+							<th scope="row">
+								@count
+							</th>
+							<td>@item.Data</td>
+							<td>@item.Temperatura°C</td>
+							<td>@item.Umidade</td>
+							<td>
+								<div class="w-100 text-center">
+									<button class="btn btn-sm btn-outline-danger" disabled type="button">Deletar</button>
+									<!--
+									<a class="btn btn-sm btn-link" asp-area="" asp-controller="Editar" asp-action="Index">Editar</a>
+									-->
+								</div>
+							</td>
+						</tr>
+						count++;
+					}
+				</tbody>
+			</table>
+		</div>
+	}
+</div>

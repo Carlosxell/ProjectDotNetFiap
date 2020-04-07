@@ -1,0 +1,53 @@
+﻿@model DadosSensoresMvc.Models.Contato
+
+@{
+	ViewData["Title"] = "Página de contato";
+}
+
+
+<form asp-action="Contato" class="boxContainer mb-2" asp-controller="Contato" method="post">
+	<div class="pt-4 pb-2">
+		<a class="btn btn-sm btn-outline-dark" asp-area="" asp-controller="Home" asp-action="Index">
+			Voltar
+		</a>
+	</div>
+
+	@if (!Html.ViewData.ModelState.IsValid)
+	{
+		<p class="alert alert-danger w-100 text-center mb-4">
+			<small>Dados do formulário incorretos</small>
+		</p>
+	}
+
+	<div class="row mt-5">
+		<div class="col-sm-6">
+			<div class="form-group">
+				<label asp-for="@Model.Nome" class="label">Nome</label>
+				<input asp-for="@Model.Nome" class="form-control form-control-sm" type="text" placeholder="Ex: José Dantas" />
+				<small asp-validation-for="Nome" class="invalid-feedback"></small>
+			</div>
+		</div>
+
+		<div class="col-sm-6">
+			<div class="form-group">
+				<label asp-for="@Model.Email" class="label">Temperatura</label>
+				<input asp-for="@Model.Email" class="form-control form-control-sm" type="email" placeholder="teste@teste.com.br" />
+				<small asp-validation-for="Email" class="invalid-feedback"></small>
+			</div>
+		</div>
+
+		<div class="col-12">
+			<div class="form-group">
+				<label asp-for="@Model.Mensagem" class="label">Mensagem</label>
+				<textarea asp-for="@Model.Mensagem" class="form-control form-control-sm" cols="5" rows="4" maxlength="300" placeholder="Descreva sua solicitação"></textarea>
+				<small asp-validation-for="Mensagem" class="invalid-feedback"></small>
+			</div>
+		</div>
+	</div>
+
+	<div class="row justify-content-end no-gutters">
+		<div class="d-inline-block">
+			<button class="btn btn-sm btn-primary" type="submit">Enviar</button>
+		</div>
+	</div>
+</form>
