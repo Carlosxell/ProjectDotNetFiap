@@ -110,8 +110,6 @@ C:\Users\Usuario\source\repos\DadosSensoresMvc\obj\Debug\netcoreapp3.1\Razor\Vie
 C:\Users\Usuario\source\repos\DadosSensoresMvc\obj\Debug\netcoreapp3.1\Razor\Views\Cadastrar\Index.cshtml.g.cs
 C:\Users\Usuario\source\repos\DadosSensoresMvc\obj\Debug\netcoreapp3.1\Razor\Views\Contato\Contato.cshtml.g.cs
 C:\Users\Usuario\source\repos\DadosSensoresMvc\obj\Debug\netcoreapp3.1\Razor\Views\Contato\Index.cshtml.g.cs
-C:\Users\Usuario\source\repos\DadosSensoresMvc\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Usuario\source\repos\DadosSensoresMvc\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Usuario\source\repos\DadosSensoresMvc\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Usuario\source\repos\DadosSensoresMvc\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Usuario\source\repos\DadosSensoresMvc\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
