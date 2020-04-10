@@ -14,7 +14,7 @@ namespace DadosSensoresMvc.Repository
 {
 	public class DataBaseContext: DbContext
 	{
-		public AppContext(DbContextOptions options): base(options)
+		public Context(DbContextOptions options): base(options)
 		{}
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
