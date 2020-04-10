@@ -34,9 +34,8 @@ namespace DadosSensoresMvc.Repository
 
 		public void Alterar(Contato contato)
 		{
-			// Está ocorrendo erro na importação do UPDATE
-			// context.DadosSensores.Update(dadosSensores);
-			// context.SaveChanges();
+			context.Contato.Update(contato);
+			context.SaveChanges();
 		}
 
 		public void Excluir(int id)
