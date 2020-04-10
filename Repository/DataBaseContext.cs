@@ -9,6 +9,8 @@ namespace DadosSensoresMvc.Repository
 {
 	public class DataBaseContext: DbContext
 	{
+
+		// Comentário para o erick aprender GIT
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			var config = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
