@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7znPeWf5YOVBv3OGUVsbqCuLW8wX+3qMKIKDGi5/Dwp2N2JNyFbtXxdf7Jx4j5rftFw1p/gS+gdblAwZfGZXLw==",
+  "dgSpecHash": "t1atRI5jOx2qgduY+/lAacKpv9xstL2KLUxY/80AJTUibEsi4vReOty3y6njpiC9sANv1ZnNaDx+kdvTDA0ctg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\DadosSensoresMvc\\DadosSensoresMvc.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,7 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0-preview.2.20159.4\\microsoft.entityframeworkcore.5.0.0-preview.2.20159.4.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0-preview.2.20159.4\\microsoft.entityframeworkcore.abstractions.5.0.0-preview.2.20159.4.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0-preview.2.20159.4\\microsoft.entityframeworkcore.analyzers.5.0.0-preview.2.20159.4.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.1.11\\microsoft.entityframeworkcore.relational.2.1.11.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.2.4\\microsoft.entityframeworkcore.relational.2.2.4.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.2\\microsoft.extensions.caching.abstractions.3.1.2.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.2\\microsoft.extensions.caching.memory.3.1.2.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.2\\microsoft.extensions.configuration.3.1.2.nupkg.sha512",
@@ -48,7 +48,7 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\oracle.dataaccess.x86\\2.112.1\\oracle.dataaccess.x86.2.112.1.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\oracle.entityframeworkcore\\2.19.50\\oracle.entityframeworkcore.2.19.50.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\oracle.entityframeworkcore\\2.19.30\\oracle.entityframeworkcore.2.19.30.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\oracle.manageddataaccess\\19.6.0\\oracle.manageddataaccess.19.6.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\oracle.manageddataaccess.core\\2.19.60\\oracle.manageddataaccess.core.2.19.60.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

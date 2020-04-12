@@ -4,6 +4,7 @@ using DadosSensoresMvc.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Oracle.EntityFrameworkCore;
+using Oracle.DataAccess.Client;
 
 namespace DadosSensoresMvc.Repository
 {
@@ -11,10 +12,10 @@ namespace DadosSensoresMvc.Repository
 	{
 
 		// Comentário para o erick aprender GIT
-		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+		protected override void OnConfiguring(DbContextOptionsBuilder optBuilder)
 		{
 			var config = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
-			optionsBuilder.UseOracle(config.GetConnectionString("OracleConnection"));
+			optBuilder.UseOracle(config.GetConnectionString("OracleConnection"), b => b.UseOracleSQLCompatibility("11"));
 		}
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)

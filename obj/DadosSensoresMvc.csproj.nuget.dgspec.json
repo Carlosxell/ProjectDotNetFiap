@@ -60,7 +60,7 @@
             },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.19.50, )"
+              "version": "[2.19.30, )"
             },
             "Oracle.ManagedDataAccess": {
               "target": "Package",

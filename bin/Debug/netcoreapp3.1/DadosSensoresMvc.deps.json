@@ -28,7 +28,7 @@
           "Microsoft.EntityFrameworkCore": "5.0.0-preview.2.20159.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.2",
           "Oracle.DataAccess.x86": "2.112.1",
-          "Oracle.EntityFrameworkCore": "2.19.50",
+          "Oracle.EntityFrameworkCore": "2.19.30",
           "Oracle.ManagedDataAccess": "19.6.0",
           "Oracle.ManagedDataAccess.Core": "2.19.60",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -640,14 +640,14 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/5.0.0-preview.2.20159.4": {},
-      "Microsoft.EntityFrameworkCore.Relational/2.1.11": {
+      "Microsoft.EntityFrameworkCore.Relational/2.2.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.0-preview.2.20159.4"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "2.1.11.0",
-            "fileVersion": "2.1.11.19108"
+            "assemblyVersion": "2.2.4.0",
+            "fileVersion": "2.2.4.19081"
           }
         },
         "compile": {
@@ -1032,9 +1032,9 @@
           "lib/Oracle.DataAccess.dll": {}
         }
       },
-      "Oracle.EntityFrameworkCore/2.19.50": {
+      "Oracle.EntityFrameworkCore/2.19.30": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "2.1.11",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.4",
           "Oracle.ManagedDataAccess.Core": "2.19.60"
         },
         "runtime": {
@@ -3670,12 +3670,12 @@
       "path": "microsoft.entityframeworkcore.analyzers/5.0.0-preview.2.20159.4",
       "hashPath": "microsoft.entityframeworkcore.analyzers.5.0.0-preview.2.20159.4.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/2.1.11": {
+    "Microsoft.EntityFrameworkCore.Relational/2.2.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Uj+zIPa/F5lEl+dVyDpUvFamdp4XnvoB1LbrF/UwI5zgMzA990TxbASGAWdfzIV0ITg5txtYuN+5mZ1BY5FXIw==",
-      "path": "microsoft.entityframeworkcore.relational/2.1.11",
-      "hashPath": "microsoft.entityframeworkcore.relational.2.1.11.nupkg.sha512"
+      "sha512": "sha512-Ga+kJhoSBNYv8C2gQl2sB5bTBkWsLFn92CPjZA5ql/MyxJTWri6lf44/GSYEcOQj0tqF5HhMAaB1HxQMiIPBcQ==",
+      "path": "microsoft.entityframeworkcore.relational/2.2.4",
+      "hashPath": "microsoft.entityframeworkcore.relational.2.2.4.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/3.1.2": {
       "type": "package",
@@ -3873,12 +3873,12 @@
       "path": "oracle.dataaccess.x86/2.112.1",
       "hashPath": "oracle.dataaccess.x86.2.112.1.nupkg.sha512"
     },
-    "Oracle.EntityFrameworkCore/2.19.50": {
+    "Oracle.EntityFrameworkCore/2.19.30": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WZTqm8DObufSEWhKMXXfjJvTMjebUy4gb0xvCtuKsxWaXtHmDJPSRXo9ZSFyJEN2ZHPqa7HpJyvbovQ0DEMCFg==",
-      "path": "oracle.entityframeworkcore/2.19.50",
-      "hashPath": "oracle.entityframeworkcore.2.19.50.nupkg.sha512"
+      "sha512": "sha512-MVhdP4Nm8RpY1yUytVOemRSdOQD265CDd/zSOUASiZYhqdRAcyCQGEzJZuRQ9NG3weaUAu/nPKEFkjuL+2kqlg==",
+      "path": "oracle.entityframeworkcore/2.19.30",
+      "hashPath": "oracle.entityframeworkcore.2.19.30.nupkg.sha512"
     },
     "Oracle.ManagedDataAccess/19.6.0": {
       "type": "package",
