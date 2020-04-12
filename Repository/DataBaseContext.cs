@@ -16,10 +16,13 @@ namespace DadosSensoresMvc.Repository
 		{
 			var config = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
 			optBuilder.UseOracle(config.GetConnectionString("OracleConnection"), b => b.UseOracleSQLCompatibility("11"));
+			// optBuilder.UseOracle("Data Source=oracle.fiap.com.br,1433;Network Library=DBMSSOCN;Initial Catalog=FIAP;User ID=RM82824;Password=141189;");
 		}
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
+			modelBuilder.Entity<DadosSensores>().Property(p => p.IdDados).UseOracleIdentityColumn();
+
 			base.OnModelCreating(modelBuilder);
 		}
 
